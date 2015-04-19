@@ -10,6 +10,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 		document.getElementById("titleText").style.fontSize= "130px"; 
 		document.getElementById("mainCaption").style.fontSize= "45px"; 
 		document.getElementById("mainCaption").style.textAlign= "center"; 
+                document.getElementById("mainHtmlId").style.overflow = "visible";  
+
 		}
 
 
