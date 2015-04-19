@@ -25,6 +25,10 @@ function leave(id){
 	}
 }
 
+function contactClick(){
+	document.getElementById("mainHtmlId").style.overflow = "visible"; 
+}
+
 function hoverText(id){
 	if(mCheck == false){
 		document.getElementById(id).style.color="#00c853"; 
